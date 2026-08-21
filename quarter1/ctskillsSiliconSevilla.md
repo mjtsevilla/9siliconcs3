@@ -20,6 +20,7 @@ The school canteen has a slow and crowded ordering process because students take
 
 ## Step 3: Apply Computational Thinking Skills
 |Sub-Problem|CT Skill|Proposed Solution|
+|---|---|---|
 |Students take too long to decide what to order.|Pattern Recognition|Display a digital menu with food names, prices, and available items so students can quickly choose.|
 |Cashier takes too long to calculate totals and change.|Decomposition|Create a program that automatically calculates the total and change after the student selects their order and enters payment.|
 |No system for checking food inventory.|Abstraction|Separate inventory into individual food items and track the quantity of each item.|
