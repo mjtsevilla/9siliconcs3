@@ -9,3 +9,4 @@ I like blue
 ## Quarter 1 Activities
 - [Computational Thinking Skills](quarter1/ctskillsSiliconSevilla.md)
 - [Chinese Zodiac](quarter1/zodiacSiliconSevilla.md)
+- [ILA 3-1: Applying the Four Pillars of OOP](quarter1/ila_oop.md)
