@@ -7,9 +7,9 @@ No major changes were needed from my original design.
 ## Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
-| name | string | | Name of the club member|
-| gradeLevel | int | | Grade level of the member |
-| position | string | | Role or position of the member in the club |
+| name | string | Public | Name of the club member|
+| gradeLevel | int | Public | Grade level of the member |
+| position | string |  | Role or position of the member in the club |
 | active | boolean | | Indicates whether the member is currently active |
 ## Updated UML Class Diagram
 ![Class Diagram](images/classDiagramSG5.png)
