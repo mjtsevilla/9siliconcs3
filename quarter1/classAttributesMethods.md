@@ -7,10 +7,10 @@ No major changes were needed from my original design.
 ## Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
-| name | string | Public | Name of the club member|
-| gradeLevel | int | Public | Grade level of the member |
-| position | string |  | Role or position of the member in the club |
-| active | boolean | | Indicates whether the member is currently active |
+| name | string | Public | The member's name can be accessed normally. |
+| gradeLevel | int | Public | The member's grade level can be accessed when needed. |
+| position | string | Public | The member's position can be viewed and updated. |
+| active | boolean | Private | The status should be changed safely through a method. |
 ## Updated UML Class Diagram
 ![Class Diagram](images/classDiagramSG5.png)
 ## Python Implementation
