@@ -16,6 +16,7 @@
 | changeStatus(Status: boolean) | Changes whether the member is active |
 
 ## Class Diagram
+![Class Diagram](images/classDiagram.png)
 
 ## Design Explanation
 ### Why did you choose this class?
