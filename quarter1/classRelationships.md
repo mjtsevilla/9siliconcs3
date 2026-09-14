@@ -6,7 +6,7 @@
 ## Existing Class
 Class: Club
 
-Description: A Club refers to a school organization of ClubMembers who share the same interests. There are various clubs on every school, such as Academic and Literary Club, Arts and Creativity Club, and Sports Club,  with several fun and interesting activities like solving puzzles, perform in school events, and play team sports.
+Description: A Club refers to a school organization of ClubMembers who share the same interests. There are various clubs on every school, such as Academic and Literary Club, Arts and Creativity Club, and Sports Club,  with several fun and interesting activities like solving puzzles, performing in school events, and playing team sports.
 
 ## New Related Class
 Class:
