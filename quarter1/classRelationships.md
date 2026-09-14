@@ -15,19 +15,26 @@ Description: A Club refers to a school organization of ClubMembers who share the
 
 ## Association
 Relationship:
-Explanation:
-## Multiplicity
 
-Multiplicity:
 Explanation:
+
+## Multiplicity
+Multiplicity: One-to-Many
+
+Explanation: One club can have many members to provide a wider variety of social relationships. Members can build friendships with other members that share their exact interests and it keeps the club from shutting down because when old members leave, there are still members who are in the club.
+
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
+
 ## Python Implementation
 [View Python Source](classRelationships.py)
+
 ## Test Run
 ![Relationship Test Run](images/relationshipTestRun.png)
+
 ## Object Relationship Diagram
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
+
 ## Analysis
 ### What is the association between your two classes?
 ### What multiplicity did you choose and why?
