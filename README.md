@@ -14,3 +14,4 @@
 - [OOPAct II: Bringing your Class to Life](quarter1/classAttributesMethods.md)
 - [Class Implementation](quarter1/classImplementation.py)
 - [OOPAct III: Connecting Your Objects](quarter1/classRelationships.md)
+- [OOPAct IV: Designing Advanced Class Relationships](quarter1/advancedRelationships.md)
