@@ -9,7 +9,9 @@
 
 ## Inheritance Relationship
 Parent:
-Child:
+
+Child
+
 Explanation:
 
 ## Inheritance UML
@@ -17,6 +19,7 @@ Explanation:
 
 ## Composition/Aggregation
 Relationship:
+
 Explanation:
 
 ## Advanced UML Diagram
@@ -26,9 +29,10 @@ Explanation:
 [Source Code](advancedRelationships.py)
 
 ## Test Run
-![Test](images/advancedTestRun.png
+![Test](images/advancedTestRun.png)
 
 ## Object Diagram
 ![Objects](images/advancedObjectDiagram.png)
+
 ## Reflection
 Answers:
