@@ -10,7 +10,7 @@
 ## Inheritance Relationship
 Parent:
 
-Child
+Child:
 
 Explanation:
 
