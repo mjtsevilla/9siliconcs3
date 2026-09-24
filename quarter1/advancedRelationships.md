@@ -9,16 +9,20 @@
 
 ## Inheritance Relationship
 Parent:
+ClubMember 
 
 Child:
+ClubOfficer
 
 Explanation:
+A ClubOfficer is a type of ClubMember
 
 ## Inheritance UML
 ![Inheritance](images/inheritanceDiagram.png)
 
 ## Composition/Aggregation
 Relationship:
+Aggregation 
 
 Explanation:
 
