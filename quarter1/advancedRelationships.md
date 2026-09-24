@@ -56,7 +56,7 @@ Answers:
 3. Why is your HAS-A relationship Aggregation?
 - The relationship between Club and ClubMember is aggregation because the members can exist independently from the club object. The ClubMember objects are created separately before they are added to the club. For example, member1 exists before club1.addMember(member1) is called. Therefore, deleting the Club object would not mean that the ClubMember objects must be deleted.
 
-  4. What is the difference between Association from Part III and the advanced relationship you implemented?
+4. What is the difference between Association from Part III and the advanced relationship you implemented?
 - The association from Part III showed that a Club contains or is connected to ClubMember objects. In Part IV, this relationsip is identified more specifically as aggregation., which explains that the members can exist independently from the club. Part IV also adds inheritance, where ClubOfficer is a specialized type of ClubMember. Therefore, Part IV gives more detail about how objects are related and how code can be reused.
 
 5. How does your design follow the DRY principle?
