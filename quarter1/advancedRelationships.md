@@ -15,15 +15,12 @@ Class 2: Club
 
 ## Inheritance Relationship
 Parent:
-
 ClubMember 
 
 Child:
-
 ClubOfficer
 
 Explanation:
-
 A ClubOfficer is a type of ClubMember because very club officer is also a student member of the club. A club officer needs the same basic information as a regular member, such as name, grade level, position, and active status. The child class then can add officer-specific information or actions.
 
 ## Inheritance UML
@@ -31,11 +28,9 @@ A ClubOfficer is a type of ClubMember because very club officer is also a studen
 
 ## Composition/Aggregation
 Relationship:
-
 Aggregation 
 
 Explanation:
-
 The relationship between Club and ClubMember is aggregation because  Club contains members, but a ClubMember can exist independently of the Club object. For example, a student can still exist as a ClubMember object even if the club object is removed.
 
 ## Advanced UML Diagram
