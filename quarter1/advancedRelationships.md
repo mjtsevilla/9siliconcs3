@@ -7,8 +7,8 @@
 
 ## Existing System Description:
 1. What classes currently exist in your system?
-Class 1: ClubMember
-Class 2: Club
+- Class 1: ClubMember
+- Class 2: Club
 
 2. What problem or limitation exists in your current design?
 - One limitation is that some club members may have additional responsibilities that are not represented in the original ClubMember class. For example, club officers may have duties such as managing events or leading members. Creating a specialized child class can add these features without unnecessarily repeating the existing member information.
