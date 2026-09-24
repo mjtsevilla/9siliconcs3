@@ -6,15 +6,24 @@
 [Class Relationships](classRelationships.md)
 
 ## Existing System Description:
+1. What classes currently exist in your system?
+Class 1: ClubMember
+Class 2: Club
+
+2. What problem or limitation exists in your current design?
+- One limitation is that some club members may have additional responsibilities that are not represented in the original ClubMember class. For example, club officers may have duties such as managing events or leading members. Creating a specialized child class can add these features without unnecessarily repeating the existing member information.
 
 ## Inheritance Relationship
 Parent:
+
 ClubMember 
 
 Child:
+
 ClubOfficer
 
 Explanation:
+
 A ClubOfficer is a type of ClubMember because very club officer is also a student member of the club. A club officer needs the same basic information as a regular member, such as name, grade level, position, and active status. The child class then can add officer-specific information or actions.
 
 ## Inheritance UML
@@ -22,9 +31,11 @@ A ClubOfficer is a type of ClubMember because very club officer is also a studen
 
 ## Composition/Aggregation
 Relationship:
+
 Aggregation 
 
 Explanation:
+
 The relationship between Club and ClubMember is aggregation because  Club contains members, but a ClubMember can exist independently of the Club object. For example, a student can still exist as a ClubMember object even if the club object is removed.
 
 ## Advanced UML Diagram
