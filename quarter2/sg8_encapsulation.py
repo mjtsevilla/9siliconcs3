@@ -11,7 +11,7 @@ class BankAccount:
     if balance >= 0:
       self.__balance = balance
     else:
-      print("Warning! Balance cannot be negative.")
+      print("The balance must not be a negative number.")
 
   @property
   def account_number(self):
