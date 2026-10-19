@@ -17,4 +17,4 @@
 - [OOPAct IV: Designing Advanced Class Relationships](quarter1/advancedRelationships.md)
 
   ## Quarter 2 Activities
-- [Encapsulation](sg8_encapsulation.py)
+- [Encapsulation](quarter2/sg8_encapsulation.py)
