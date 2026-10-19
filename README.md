@@ -15,3 +15,6 @@
 - [Class Implementation](quarter1/classImplementation.py)
 - [OOPAct III: Connecting Your Objects](quarter1/classRelationships.md)
 - [OOPAct IV: Designing Advanced Class Relationships](quarter1/advancedRelationships.md)
+
+  ## Quarter 2 Activities
+- [Encapsulation](sg8_encapsulation.py)
