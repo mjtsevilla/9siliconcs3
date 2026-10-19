@@ -13,12 +13,12 @@ class BankAccount:
     else:
       print("Warning! Balance cannot be negative.")
 
-@property
-def account_number(self):
+  @property
+  def account_number(self):
     return self.__account_number
 
-@property
-def balance(self):
+  @property
+  def balance(self):
     return self.__balance
 
 a1 = BankAccount(12345, 1000)
@@ -30,4 +30,4 @@ print("\nUpdate balance to -100")
 a1.set_balance(-100)
 
 print("Account Number: ", a1.account_number)
-print("Balance: {:.2f}.format(a1.balance))
+print("Balance: {:.2f}".format(a1.balance))
