@@ -20,4 +20,58 @@ class Publication:
     print("Author: ", self.__author)
 
 class Book(Publication):
-  def __init__
+  def __init__(self, title, author, number_of_pages):
+    super().__init__(title, author)
+    self.__number_of_pages = 1
+    self.set_number_of_pages(number_of_pages)
+
+  def get_number_of_pages(self):
+    return self.__number_of_pages
+    
+  def set_number_of_pages(self, number_of_pages):
+    if number_of_pages > 0:
+      self.__number_of_pages = number_of_pages
+    else:
+      print("Number of pages must be positive.")
+
+  def display_info(self):
+    super().display_info()
+    print("Number of pages: ", self.__number_of_pages)
+
+class Magazine(Publication):
+  def __init__(self, title, author, issue_number):
+    super().__init__(title, author)
+    self.__issue_number = 1
+    self.set_issue_number(issue_number)
+
+  def get_issue_number(self):
+    return self.__issue_number
+
+  def set_issue_number(self, issue_number):
+    if issue_number > 0:
+      self.__issue_number = issue_number
+    else:
+      print("Issue number must be positive")
+
+  def display_info(self):
+    super().display_info()
+    print("Issue number: ", self.__issue_number)
+
+pub1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.")
+pub2 = Publication("The Science Journal", "Maria Santos")
+
+book1 = Book("The Hobbit", "J.R.R. Tolkien", 310)
+book2 = Book("Harry Potter", "J.K. Rowling", 309)
+
+mg1 = Magazine("National Geographic", "Various Authors", 202)
+mg2 = Magazine("Science Today", "Editioral Team", 15)
+
+print("Publication Information: ")
+pub1.display_info()
+
+print("\nBook Information: ")
+book1.set_number_of_pages(-310)
+book1.display_info()
+
+print("\nMagazine Information: ")
+mg1.display_info()
