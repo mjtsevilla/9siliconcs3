@@ -18,3 +18,4 @@
 
   ## Quarter 2 Activities
 - [Encapsulation](quarter2/sg8_encapsulation.py)
+- [Inheritance](quarter2/sg9_inheritance.py)
