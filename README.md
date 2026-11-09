@@ -20,3 +20,4 @@
 - [Encapsulation](quarter2/sg8_encapsulation.py)
 - [Inheritance](quarter2/sg9_inheritance.py)
 - [Method Overriding](quarter2/sg10_MethodOverriding.py)
+- [Polymorphism Activity 1](qaurter2/sg11_Polymorphism_Activity 1.py)
