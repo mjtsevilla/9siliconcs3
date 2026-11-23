@@ -49,15 +49,3 @@ for patient in patients:
   patient.display_patient_type()
   print("Original Bill: ₱{:,.2f}".format(patient.get_bill_amount()))
   print("Final Bill: ₱ {:,.2f}".format(patient.calculate_bill()))
-        
-          
-          
-    
-  
-
-
-
-
-
-
-  
